@@ -59,7 +59,7 @@ fun AboutScreen(navHostController: NavHostController) {
                 Image(modifier = Modifier
                     .width(100.dp)
                     .height(50.dp)
-                    .clickable { uriHandler.openUri("https://github.com/Kawaki22/") },
+                    .clickable { uriHandler.openUri("https://github.com/nc6d/") },
                     painter = painterResource(id = R.drawable.github), contentDescription = "GitHub", colorFilter = if (isSystemInDarkTheme()) ColorFilter.tint(Color.White) else ColorFilter.tint(Color.Black))
 
             Spacer(modifier = Modifier.height(20.dp))
